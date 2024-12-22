@@ -1,0 +1,42 @@
+# use an optin approach to gitignore
+*
+
+# add config files
+!.gitignore
+!.gitattributes
+!.editorconfig
+!.eslint.config.js
+!.config
+!.config/dotnet-tools.json
+
+# add documentation files
+!*.md
+
+# add package.json
+!package.json
+!package-lock.json
+
+# configuration files
+!vite.config.js
+
+# add source files
+!*.js
+!*.ts
+!*.tsx
+!*.jsx
+!*.css
+!*.scss
+!*.sass
+!*.less
+!*.fs
+!*.fsx
+!*.fsproj
+
+# add source directories
+!src
+!src/Client/
+!src/Client/*.html
+!src/Client/public/
+!src/Client/public/*
+!src/Client/assets/
+!src/Client/assets/*
